@@ -1,0 +1,40 @@
+#frame-container{
+    background-image: url("../imagens/Eminem.jpg");
+    background-repeat: no-repeat;
+    min-width: 360px;
+    max-width: 520px;
+    min-height: 340px;
+    max-height: 650px;
+    color: black;
+    background-size: cover;
+    text-align: justify;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 2px 12px #F2F2F2;
+}
+
+#texto-eminem{
+    background-color:#F2F2F2ee;
+    box-shadow: 2em 5px 8px #F2F2F2ec;
+    padding: 1em;
+    max-width: 30%;
+    text-align: left;
+    height: 340px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #frame-container{
+        color:black;
+    }
+
+    #texto-eminem{
+        max-width: 30%;
+        text-align: left;
+        height: 340px;
+        box-shadow: 1em 0em 1em #F2F2F2ec;
+        font-size: 0.85em;
+    }
+    #texto-eminem h1{
+        text-align: center;
+    }
+}

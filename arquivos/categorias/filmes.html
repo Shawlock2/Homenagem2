@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../../style.css">
+    <script src="../../script.js"></script>
+</head>
+<body>
+    <main id="main-categorias">
+        <section class="bloco-conteudo" id="filmes">
+            <div class="crepusculo">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="../imagens/crepusculo-mob.jpg">
+                    <img src="../imagens/crepusculo.jpg" alt="crepusculo">
+                </picture>
+
+                <div class="container">
+                    <p class="texto">
+                        A saga "Crepúsculo" segue a história de Bella Swan, uma adolescente que se muda para a pequena cidade de Forks,
+                        Washington, onde conhece o misterioso Edward Cullen e sua família, que são vampiros. Apesar dos perigos que isso acarreta,
+                        Bella se apaixona por Edward e os dois iniciam um relacionamento. Ao longo da série, eles enfrentam diversos desafios,
+                        incluindo ameaças de vampiros hostis e a rivalidade com lobisomens, especialmente Jacob Black, que também se apaixona por Bella.
+                    </p>
+                    <nav class="acordeon">
+                        <input type="button" value="Alguns filmes" onclick="exibir()" class="filmes">
+                        <div class="filme1" id="filme-crepusculo">
+                            <a href="https://drive.google.com/file/d/1dBfBOtBri77-R-2DC-vxElSDhu_rSGxM/view" target="_blank">Crepúsculo 2008</a>
+                            <hr>
+                            <a href="https://drive.google.com/file/d/1xgq-JDdV1MykmFBAyKdj5RzjZU2ms1ke/view" target="_blank">Crepúsculo amanhecer</a>
+                            <hr>
+                            <a href="https://drive.google.com/file/d/1CmIofSLQmlgAxJYh0nHa4pZoZ-7UX3Nj/view" target="_blank">Crepúsculo Eclipse</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="velozes">
+
+                <picture>
+                    <source media="(max-width: 600px)" srcset="../imagens/velozes-mob.jpg">
+                    <img src="../imagens/velozes.jpg" alt="velozes-e-furiosos">
+                </picture>
+
+                <div class="container">
+                    <p class="texto">                        
+                        "Velozes e Furiosos" é uma franquia de filmes de ação que gira em torno de corridas de rua ilegais e
+                        crimes relacionados a carros. O primeiro filme, lançado em 2001,
+                        introduziu Dominic Toretto, um líder de gangue envolvido em roubos 
+                        de equipamentos eletrônicos e corridas clandestinas, e Brian O'Conner, um policial disfarçado que se infiltra na gangue de Toretto para investigar os crimes.
+                    </p>
+                    <input type="button" value="Exibir" class="filmes" onclick="velozes()">
+                </div>
+            </div>
+            <div id="shrek">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="../imagens/shrek-capa-mob.jpg">
+                    <img src="../imagens/shrek-capa.jpg" alt="shrek-capa">
+                </picture>
+                <div class="container">
+                    <p class="texto">
+                        "Shrek" é uma animação lançada pela DreamWorks em 2001, dirigida por Andrew Adamson e Vicky Jenson.
+                        O filme é uma sátira aos contos de fadas tradicionais,
+                        seguindo a história de um ogro chamado Shrek, que vive em um
+                        pântano isolado e é forçado a deixar sua vida tranquila quando o senhor feudal local, Lord Farquaad,
+                        decide exilar todas as criaturas de contos de fadas em sua terra.
+                    </p>
+                    <nav class="acordeon">
+                        <input type="button" value="Alguns filmes" onclick="exibirshrek()" class="filmes">
+                        <div class="filme1" id="filme-shrek">
+                            <a href="https://drive.google.com/file/d/1tcg20VgtXD4TjvPQ1LEK0FoEEKNXVlXa/view" target="_blank">Shrek</a>
+                            <hr>
+                            <a href="https://drive.google.com/file/d/13IitTIjhxmPZXCgCLpNqulvjCy9AIWov/view" target="_blank">Shrek 2</a>
+                            <hr>
+                            <a href="https://drive.google.com/file/d/1fVrBtVx11j8qzcrhDHBy84o6g61mse93/view" target="_blank">Shrek terceiro</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

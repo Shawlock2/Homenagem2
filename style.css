@@ -1,0 +1,160 @@
+/* Index */
+main{
+    margin: 0;
+}
+iframe{
+    display: block;
+    padding-bottom: 0;
+    height: 62px;
+}
+#frame-container{
+    margin: 0% 4%;
+    border-radius: 3px;
+    opacity: 0;
+    transform: translateX(-100%); 
+    transition: transform 1s ease, opacity 1s ease;
+
+}
+
+#frame-container.aparecer{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#packman{
+    display: block;
+    margin: auto;
+}
+
+@media only screen and(max-width: 600px) {
+    body{
+        padding: 0;
+    }
+}
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+body{
+    /* background-image: linear-gradient(90deg, #c57e22,#3562af,#09101b);
+    background-size: 350% 350%;
+    animation: colors 8s ease infinite; */
+    background-color: #0D0D0D;
+    color: #F2D7D0;
+    
+}
+
+/* Categorias */
+.iframes{
+    height: 40em;
+}
+
+
+#main-categorias div{
+    padding: 10px 0px;
+}
+
+.crepusculo{
+    display: flex;
+    
+}
+
+.texto {
+    text-align: justify;
+    margin: 1em;
+}
+
+.filme1{
+    background-color:#F2D7D0;
+    display: none;
+    overflow: hidden;
+    width: 50%;
+    padding: 8px 0px;
+    border-radius: 3px;
+
+}
+
+.filme1 a{
+    text-decoration: none;
+    color: #0D0D0D;
+    display: block;
+    
+}
+
+.filmes{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 0 18px;
+    background-color: brown;
+    border-radius: 6px 6px 0px 0px;
+    height: 2em;
+    border: 0;
+}
+
+.velozes{
+    display: flex;
+}
+
+
+#filme2{
+    text-align: center;
+}
+#velozes{
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+#shrek{
+    display: flex;
+}
+
+/* series */
+
+.series{
+    display: flex;
+    padding: 10px 0px;
+}
+
+/* Livros */
+
+.livros{
+    display: flex;
+    padding: 10px 0px;
+}
+
+#spotify{
+    display: block;
+    margin: auto;
+    width: 170px;
+}
+
+#parabens{
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 540px) {
+    .texto{
+        font-size: .8em;
+    }
+
+    #spotify{
+        width: 80px;
+    }
+
+    #parabens{
+        width: 50%;
+    }
+    
+}

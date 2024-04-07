@@ -1,0 +1,39 @@
+#frame-container{
+    background-image: url("../imagens/frankenstein.jpg");
+    background-repeat: no-repeat;
+    min-width: 360;
+    max-width: 520px;
+    min-height: 340px;
+    max-height: 650px;
+    color: brown;
+    background-size: cover;
+    text-align: justify;
+    border: 1px solid #A63333;
+    box-shadow: 0px 2px 12px #A63333;
+}
+
+#texto-frank{
+    background-color:black;
+    box-shadow: 2em 5px 8px black;
+    padding: 1em;
+    max-width: 30%;
+    text-align: left;
+    height: 340px;
+}
+
+@media only screen and (max-width: 600px) {
+    #frame-container{
+        color:brown;
+        
+    }
+
+    #texto-frank{
+        max-width: 45%;
+        box-shadow: 2em 0em 1em rgba(0, 0, 0);
+        text-align: left;
+    }
+
+    #texto-frank h1{
+        text-align: center;
+    }
+}

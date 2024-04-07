@@ -1,0 +1,42 @@
+#frame-container{
+    background-image: url("../imagens/breaking.jpg");
+    background-repeat: no-repeat;
+    min-width: 360px;
+    max-width: 520px;
+    min-height: 340px;
+    max-height: 650px;
+    color: black;
+    background-size: cover;
+    text-align: justify;
+    border: 1px  solid #84B8D9;
+    box-shadow: 0px 2px 12px #84B8D9;
+}
+
+#text-bad{
+    max-width: 35%;
+    text-align: left;
+    height: 340px;
+    background-color: #cee4f2bd;
+    box-shadow: 1em 6px 1em #cee4f2bd;
+    padding: 1em;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #frame-container{
+        color:black;
+
+        
+    }
+
+    #text-bad{
+        max-width: 35%;
+        text-align: left;
+        height: 340px;
+        box-shadow: 2em 0em 1em #CEE4F2bd;
+        font-size: 11pt;
+    }
+    #texto-shrek h1{
+        text-align: center;
+    }
+}
